@@ -35,7 +35,16 @@ INSERT INTO students (first_name, last_name, email, enrollment_date) VALUES
    ```
    pip install psycopg2 tabulate
    ```
-
+4. Change database params in the beginning of the code to match your database:
+```
+# connection parameters
+db_params = {
+    'dbname': 'database_name',
+    'user': 'your_username',      
+    'password': 'your_password',  
+    'host': 'localhost'
+}
+```
 ### Configuration
 - Modify the `db_params` in the script with your PostgreSQL database credentials.
 - The script expects a `students` table in your database with the following schema:
