@@ -1,6 +1,9 @@
 
 ## README
 
+### YouTube video
+https://youtu.be/i2cistmFPOg
+
 ### Overview
 This Python script is designed to manage student records in a PostgreSQL database. It includes functions to connect to the database, add, update, and delete student records, as well as retrieve and display all student records.
 
